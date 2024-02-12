@@ -7,3 +7,9 @@
 
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store
+
+# jekyll
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
