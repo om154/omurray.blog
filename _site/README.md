@@ -1,4 +1,7 @@
-# A personal & professional blog - Oliver Murray 🧑🏼‍💻
-A personal blog to write about all things tech, start-ups, decision making, ideas and more! 
+# A personal blog by Oliver Murray 🧑🏼‍💻
 
-Generated using [Jekyll](https://jekyllrb.com/).
+A place to write about all things tech, start-ups, decision making, ideas and more!
+
+Generated using [Jekyll](https://jekyllrb.com/), and managed using [Obsidian](https://obsidian.md/).
+
+Based on the article [How I use Obsidian](https://stephango.com/vault) by Steph Ango.
