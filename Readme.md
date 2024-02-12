@@ -2,6 +2,7 @@ My personal [Obsidian](https://obsidian.md/) vault template. A bottom-up approac
 
 See the article [How I use Obsidian](https://stephango.com/vault) on my site for a detailed explanation of this vault structure.
 
+Here is a change.
 ## Get started
 
 1. [Download this vault](https://github.com/kepano/kepano-obsidian/archive/refs/heads/main.zip)
