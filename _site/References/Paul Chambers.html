@@ -1,0 +1,11 @@
+<h2 id="albums">Albums</h2>
+
+<pre><code class="language-dataview">table without id
+	file.link as Album,
+	artist as Artist,
+	rating as Rating
+where
+	contains(category,[[Albums]]) and
+	contains(artist,this.file.link)
+sort rating desc
+</code></pre>

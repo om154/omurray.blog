@@ -1,0 +1,20 @@
+<h2 id="clippings">Clippings</h2>
+
+<pre><code class="language-dataview">table without id
+	file.link as Title,
+	published as Published
+where
+	contains(author,this.file.link)
+sort rating desc
+</code></pre>
+
+<h2 id="meetings">Meetings</h2>
+
+<pre><code class="language-dataview">table without id
+	file.link as Meeting,
+	date as Date
+where
+	contains(people,this.file.link)
+sort file.name desc
+</code></pre>
+

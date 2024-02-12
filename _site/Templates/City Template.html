@@ -1,0 +1,35 @@
+<h2 id="trips">Trips</h2>
+
+<pre><code class="language-dataview">table without id
+	file.link as Trip,
+	start as Start,
+	end as End
+where
+	contains(category, [[Trips]]) and
+	contains(loc, this.file.link)
+sort file.name desc
+</code></pre>
+
+<h2 id="map">Map</h2>
+
+<pre><code class="language-leaflet">id: kyoto
+minZoom: 10
+maxZoom: 20
+defaultZoom: 12
+markerTag:
+  - places
+height: 400px
+coordinates: [[Kyoto]]
+</code></pre>
+
+<h2 id="places">Places</h2>
+
+<pre><code class="language-dataview">table without id
+	file.link as Place,
+	rating as Rating,
+	type as Type
+where
+	contains(category, [[Places]]) and
+	contains(loc, this.file.link)
+sort rating desc
+</code></pre>
